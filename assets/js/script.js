@@ -6,32 +6,32 @@ alert(admin);
 
 // 2
 
-// let city = prompt('Введите название города в котором вы проживаете');
+let city = prompt('Введите название города в котором вы проживаете');
 
-// let year = prompt('Введите год образования вашего города');
+let year = prompt('Введите год образования вашего города');
 
-// let nasel = prompt('Введите количество населения вашего города');
+let nasel = prompt('Введите количество населения вашего города');
 
-// let godi = 2024 - year;
+let godi = 2024 - year;
 
-// alert(`Городу ${city} исполнилось ${godi} лет с момента его образования. Население - ${nasel} человек`);
+alert(`Городу ${city} исполнилось ${godi} лет с момента его образования. Население - ${nasel} человек`);
 
 // 3
 
-// let pi = 3.14;
+let pi = 3.14;
 
-// let r = prompt('Введите радиус');
+let r = prompt('Введите радиус');
 
-// let pl = pi*(r*r);
+let pl = pi*(r*r);
 
-// alert(`Площадь круга равна ${pl}`);
+alert(`Площадь круга равна ${pl}`);
 
 // 4 
 
 let first = prompt('Введите первое число');
-// let firstint = parseInt(first, 10);
+
 let second = prompt('Введите второе число');
-// let secondint = parseInt(first, 10);
+
 
 let firstint = Number(first);
 let secondint = Number(second);
